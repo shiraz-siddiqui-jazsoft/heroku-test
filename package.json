@@ -1,0 +1,32 @@
+{
+  "name": "shahmir-api",
+  "version": "1.0.0",
+  "description": "shahmir-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjunaidaleem/shahmir-api.git"
+  },
+  "author": "JunaidAleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjunaidaleem/shahmir-api/issues"
+  },
+  "homepage": "https://github.com/mjunaidaleem/shahmir-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
